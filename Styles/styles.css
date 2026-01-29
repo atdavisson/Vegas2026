@@ -188,33 +188,3 @@ img#enter{
 {
   transform: none;
 }
-
-
-.modal-overlay {
-  /* Initially hidden */
-  display: none; 
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  /* Partial transparency to see the blur effect */
-  background-color: rgba(0, 0, 0, 0.5); 
-  z-index: 10;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  /* The core of the background blur effect */
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); /* For compatibility */
-}
-
-.modal-content {
-  background: white;
-  padding: 30px;
-  border-radius: 10px;
-  text-align: center;
-  color: black;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
