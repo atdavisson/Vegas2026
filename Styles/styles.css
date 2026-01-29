@@ -187,6 +187,7 @@ img#enter{
 #menuToggle input:checked ~ ul
 {
   transform: none;
+  filter: none;
 }
 
 
