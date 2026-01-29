@@ -1,6 +1,6 @@
 const hamburger = document.getElementsByClassName('hamburger');
 const main = document.getElementsByClassName('mainContainer');
-const menu = document.getElementsByid('menu');
+const menu = document.getElementById("menu");
 
 hamburger[0].addEventListener("click", function(){
     main[0].classList.toggle("blurred");
