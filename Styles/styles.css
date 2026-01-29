@@ -196,9 +196,9 @@ img#enter{
     -o-filter: blur(5px);
     -ms-filter: blur(5px);
     filter: blur(5px);
-    background-color: #eee;
+    background-color: #2F89C9;
 }
 
-.class{
+.menu{
   filter: none;
 }
