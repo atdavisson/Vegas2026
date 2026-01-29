@@ -4,5 +4,4 @@ const menu = document.getElementsByClassName('menu');
 
 hamburger[0].addEventListener("click", function(){
     main[0].classList.toggle("blurred");
-    menu[0].classList.toggle("unblur");
 })

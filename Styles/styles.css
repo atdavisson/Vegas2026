@@ -190,7 +190,7 @@ img#enter{
 }
 
 
-.blurred {
+.blurred .menu:after {
     -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
     -o-filter: blur(5px);
@@ -199,6 +199,3 @@ img#enter{
     background-color: #2F89C9;
 }
 
-.unblur {
-  filter: none;
-}
