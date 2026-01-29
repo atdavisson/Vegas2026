@@ -198,3 +198,7 @@ img#enter{
     filter: blur(5px);
     background-color: #eee;
 }
+
+.class{
+  filter: none;
+}
