@@ -6,7 +6,12 @@ body {
     
   }
 
+.logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 img#enter:hover{
-  cursor:grab ;
+  cursor:pointer ;
 }
