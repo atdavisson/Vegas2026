@@ -187,7 +187,11 @@ img#enter{
 #menuToggle input:checked ~ ul
 {
   transform: none;
-  filter: none;
+
+}
+
+#menuToggle input:checked ~ nav{
+  filter:none;
 }
 
 
