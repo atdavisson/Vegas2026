@@ -1,0 +1,8 @@
+body {
+    background-color: #2F89C9;
+    display: flex;
+  }
+.logo{ 
+justify-content: center;
+align-items: center;
+}
