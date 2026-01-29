@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vegas 2026</title>
     <link rel="stylesheet" href="Styles/styles.css">
+    <script src="script.js"></script>
 </head>
 
 <nav role="navigation">
@@ -20,9 +21,9 @@
     Some spans to act as a hamburger.
     
     -->
-    <span></span>
-    <span></span>
-    <span></span>
+    <span onclick= toggleBlur(true);></span>
+    <span onclick= toggleBlur(true);></span>
+    <span onclick= toggleBlur(true);></span>
     
     
     <ul id="menu">
@@ -32,7 +33,7 @@
       -->
       <li>
         <a href="#">
-          <label for="menuCheckbox" onclick="this.parentNode.click();">Home</label>
+          <label for="menuCheckbox" onclick="this.parentNode.click(); onclick= toggleBlur(false);">Home</label>
         </a>
       </li>
       <li>
